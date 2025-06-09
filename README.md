@@ -82,12 +82,6 @@ Agar aapko apne local server (jaise `localhost:3000`) ko public access dena hai 
 curl -sL https://raw.githubusercontent.com/RikhavSonowal/cloudflare/main/install-firewall-cloudflared.sh | bash
 ```
 
-### 2. `.deb` Package Install Karo:
-
-```bash
-sudo dpkg -i cloudflared-linux-amd64.deb
-```
-
 ### 3. Tunnel Start Karo:
 
 ```bash
