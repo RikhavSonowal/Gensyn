@@ -33,21 +33,18 @@ screen -S gensyn
 ### 3. Node Config File Download karo:
 
 ```bash
-mkdir -p rl-swarm/hivemind_exp/configs/mac/
 curl -sL https://raw.githubusercontent.com/RikhavSonowal/gensyn-smooth-/main/grpo-qwen-2.5-0.5b-deepseek-r1.yaml -o rl-swarm/hivemind_exp/configs/mac/grpo-qwen-2.5-0.5b-deepseek-r1.yaml
 ```
 
 ### 4. layout.tsx File Add karo:
 
 ```bash
-mkdir -p rl-swarm/modal-login/app/
 curl -sL https://raw.githubusercontent.com/RikhavSonowal/rl-swarm/main/layout.tsx -o rl-swarm/modal-login/app/layout.tsx
 ```
 
 ### 5. page.tsx File Add karo:
 
 ```bash
-mkdir -p rl-swarm/modal-login/app/
 curl -sL https://raw.githubusercontent.com/RikhavSonowal/gensyn-smooth-/main/page.tsx -o rl-swarm/modal-login/app/page.tsx
 ```
 
